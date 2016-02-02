@@ -1,0 +1,398 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Microsoft Yahei';
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: purple;
+}
+.header,.tit,.content.footer{
+    width: 100%;
+    min-width: 1200px;
+}
+.header{
+    width: 100%;
+    height: 30px;
+    background-color: #F2F2F2;
+}
+.header .login{
+    margin-top: -27px;
+    float: right;
+}
+.header .login span{
+    margin-left: 30px;
+}
+.tit{
+    height: 130px;
+    background-color: rgb(139,0,255);
+}
+.content {
+    width: 100%;
+    min-width: 1200px;
+    background-color: whitesmoke;
+}
+.content_left{
+    width: 70%;
+    height: 1000px;
+    min-width: 840px;
+    padding-top:40px;
+    float: left;
+
+}
+.content_right{
+    padding-top:90px;
+    width: 30%;
+    height: 700px;
+    /*background-color: red;*/
+    float: left;
+}
+.content_o{
+    margin-right: 50px;
+    width: 800px;
+    height:230px;
+    background-image: url("../img/1.png");
+    background-repeat: no-repeat;
+    float: right;
+}
+.content_one{
+    margin-top: 50px;
+    width: 800px;
+    height: 180px;
+    border: 1px gray solid;
+    float: left;
+}
+.content_one .content_one_img{
+    margin-left: 20px;
+    margin-top: 14px;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.content_one .content_one_img .img1{
+    width: 150px;
+    height: 150px;
+    transition:all .4s, ease-out;
+    -moz-transition: all .4s, ease-out;
+    -webkit-transition: all .4s, ease-out;
+    -o-transition: all .4s, ease-out;
+}
+.content_one .content_one_img:hover .img1{
+    margin-left: 20px;
+    transition:all .4s, ease-out;
+}
+
+.article{
+    margin-left: 240px;
+    width: 500px;
+    height: 180px;
+}
+.article .article_title{
+    margin-top: 13px;
+    font-size: 20px;
+}
+.article .article_content{
+    margin-top:10px;
+}
+.article .article_date{
+    position: relative;
+    bottom: -25px;
+}
+.article .article_date span{
+    position: relative;
+    right: -65px;
+}
+.content_left .content_two,.content_fenye{
+    margin-top: 30px;
+    margin-right: 50px;
+    width: 650px;
+    height: 160px;
+    border: 1px gray solid;
+    float: right;
+}
+.content_fenye{
+    margin-top: 50px;
+    height: 50px;
+    border: 0px;
+}
+.content_fenye .more{
+    margin-left: 250px;
+    width: 130px;
+    height: 35px;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+    -webkit-transition: ease 1.5s;
+    -moz-transition: ease 1.5s;
+    -ms-transition: ease 1.5s;
+    -o-transition: ease 1.5s;
+    transition: ease 1.5s;
+    padding-top: 7px;
+}
+.content_fenye .more:hover{
+    background-color: #8B00FF;
+    color: white;
+}
+.content_two .content_two_img{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+    float: left;
+}
+.content_two .content_two_img .img2{
+    width: 120px;
+    height: 120px;
+    float: left;
+    transition:all .4s, ease-out;
+    -moz-transition: all .4s, ease-out;
+    -webkit-transition: all .4s, ease-out;
+    -o-transition: all .4s, ease-out;
+}
+.content_two .content_two_img:hover .img2{
+    margin-left: 40px;
+    transition:all .4s, ease-out;
+}
+.article2{
+    position: relative;
+    top: 20px;
+    left: 60px;
+    width: 420px;
+    height: 120px;
+    float: left;
+}
+.article2 .article2_title{
+    font-size: 18px;
+}
+.article2 .article2_content{
+    margin-top: 5px;
+    font-size: 15px;
+}
+.article2_date{
+    position: relative;
+    top: 10px;
+}
+.content_left .content_one:hover{
+    border: 1px purple solid;
+}
+.content_left .content_two:hover{
+    border: 1px purple solid;
+}
+.beizhu{
+    position: absolute;
+    right: 20px;
+    top: 120px;
+    color: white;
+    font-family: 'Microsoft Yahei UI';
+    font-size: 25px;
+    display: none;
+}
+.wz_logo{
+    position: absolute;
+    top:3.6px;
+}
+
+.content_right .box1{
+    width: 350px;
+    height: 200px;
+    border: 1px #8B00FF solid;
+}
+.content_right img{
+    margin-left: 27px;
+    margin-top: 32px;
+}
+.box1 img{
+    cursor: pointer;
+}
+.box1_title{
+    line-height: 43px;
+    text-align: center;
+    font-size: 20px;
+    width: 350px;
+    height: 50px;
+    color: white;
+    background-color: #8B00FF;
+}
+.content_right .box2{
+    margin-top: 30px;
+    width: 350px;
+    height:300px;
+    border: 1px #8B00FF solid;
+}
+.box2 .box2_menu,.box3 .box3_menu{
+    line-height: 43px;
+    text-align: center;
+    font-size: 20px;
+    width: 350px;
+    height: 50px;
+    color: white;
+    background-color: #8B00FF;
+    cursor: pointer;
+}
+.box2 .box2_tab div{
+    position: relative;
+    text-align: center;
+    width: 90px;
+    height: 30px;
+    color: white;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.box2 .box2_tab div:hover{
+   background-color: #8B00FF;
+}
+.box3{
+    margin-top: 30px;
+    width: 350px;
+    height:300px;
+    border: 1px #8B00FF solid;
+}
+.box3 .xiaoyue{
+    margin-left: 10px;
+}
+.box3 .changemusic{
+    width: 350px;
+    height: 100px;
+}
+.box3 .changemusic ul{
+    list-style-type: none;
+    margin-left: 50px;
+    font-size: 12px;
+}
+.box3 .changemusic ul li:hover{
+    color: #8B00FF;
+    cursor: pointer;
+}
+.random{
+    margin-top: 10px;
+    margin-left: 70px;
+   width: 200px;
+    height: 40px;
+    background-color: #8B00FF;
+    color: white;
+    cursor: pointer;
+    border: 0px;
+}
+.random:hover{
+    opacity: 0.7;
+}
+.login_box{
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 105px;
+    left: 33%;
+    width: 440px;
+    height:410px;
+    z-index: 1000;
+}
+.box_hide{
+    float: right;
+    margin-right: 20px;
+    margin-top: 16px;
+    color: gray;
+    cursor: pointer;
+}
+.box_hide:hover{
+    color: darkgray;
+}
+.login_box .login_box_title{
+    background-color: #F7F7F7;
+    width: 440px;
+    height: 60px;
+    color: black;
+    font-size: 20px;
+}
+.login_box .login_box_body{
+    width: 440px;
+    height: 300px;
+}
+.login_box_body .login_user,.login_box_body .login_pwd{
+    margin-top: 25px;
+    margin-left: 45px;
+    width: 350px;
+    height: 42px;
+}
+.login_box_body .login_user input,.login_box_body .login_pwd input{
+    position: relative;
+    width: 350px;
+    top: 0px;
+    letter-spacing: 2px;
+    height: 39px;
+    border: 0px;
+    font-size: 15px;
+    font-family: 'Georgia';
+    border: 1px #DEDEDE solid;
+}
+.login_user input{
+    background-image: url('../img/user.png');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+.login_pwd input{
+    background-image: url('../img/mima.png');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+.login_box_body .check_code{
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 200px;
+    height: 42px;
+}
+.check_code input{
+    font-family: 'Georgia';
+    width: 255px;
+    letter-spacing: 2px;
+    height: 39px;
+    border: 1px #DEDEDE solid;
+    font-size: 15px;
+    padding-left: 40px;
+    background-image: url('../img/check.png');
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+}
+.login_box_body .login_button{
+    background-color: #8B00FF;
+    margin-top: 15px;
+    border: 0px;
+    margin-left: 45px;
+    color: white;
+    font-size: 20px;
+    width: 350px;
+    height: 50px;
+    cursor: pointer;
+    -webkit-transition: ease 1.5s;
+    -moz-transition: ease 1.5s;
+    -ms-transition: ease 1.5s;
+    -o-transition: ease 1.5s;
+    transition: ease 1.5s;
+}
+.login_box_body .login_button:hover{
+    background-color: white;
+    color: #8B00FF;
+}
+#checkimg{
+    position: relative;
+    top: -33px;
+    left:270px;
+    cursor: pointer;
+}
+.footer{
+    position: absolute;
+    top: 600px;
+    padding-top: 20px;
+    float: left;
+    width: 100%;
+    height: 500px;
+    min-width: 1200px;
+    background-color: #F7F7F7;
+    /*background-color: red;*/
+}

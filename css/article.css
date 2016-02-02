@@ -1,0 +1,125 @@
+.article_detail{
+    width: 700px;
+    height: 867px;
+    border: 1px #8B00FF solid;
+    margin-left: 125px;
+    margin-top: 50px;
+}
+.article_detail .article_title{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.article_detail .article_button{
+    text-align: center;
+}
+.article_detail .article_img{
+    text-align: center;
+    margin-top: 50px;
+}
+.article_detail .read{
+    text-align: center;
+    margin-top: 30px;
+}
+.article_detail .praise{
+    position: absolute;
+   top: 900px;
+    text-align: center;
+}
+.article_detail .praise .praise_yes,.article_detail .praise .no_praise{
+    width: 150px;
+    height: 40px;
+    background-color: #8B00FF;
+    color: white;
+    padding-top: 10px;
+}
+.article_detail .praise .praise_yes,.article_detail .no_praise{
+    float: left;
+    margin-left: 200px;
+    padding-top: 10px;
+    -webkit-transition: ease 1.5s;
+    -moz-transition: ease 1.5s;
+    -ms-transition: ease 1.5s;
+    -o-transition: ease 1.5s;
+    transition: ease 1.5s;
+    cursor: pointer;
+}
+.article_detail .praise .praise_yes:hover,.article_detail .praise .no_praise:hover{
+    color: gray;
+    background-color: white;
+}
+.praise .praise_yes .e{
+    color: white;
+}
+.praise .no_praise .f{
+    color: white;
+}
+.article_detail .praise .no_praise{
+    float: left;
+    margin-left: 20px;
+}
+.article_detail .article_button button{
+    margin-top: 10px;
+     text-align: center;
+     width: 60px;
+     height: 30px;
+     background-color: white;
+     border: 0px;
+    cursor: pointer;
+    -webkit-transition: ease 1.5s;
+    -moz-transition: ease 1.5s;
+    -ms-transition: ease 1.5s;
+    -o-transition: ease 1.5s;
+    transition: ease 1.5s;
+ }
+.article_detail .article_button button:hover{
+    background-color: #8B00FF;
+    color: white;
+}
+.article_date .article_img{
+    margin-top: 10px;
+    width: 8px;
+    height: 20px;
+    background-color: #8B00FF;
+}
+.article_detail .article_content{
+    width: 600px;
+    margin-left: 55px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: #444444;
+    margin-top: 30px;
+}
+.article_detail .share{
+    margin-left: 160px;
+    position: absolute;
+    top: 975px;
+}
+.article_detail .share img{
+    margin-left: 50px;
+    cursor: pointer;
+}
+.fanhui{
+    position: absolute;
+    top: 1050px;
+    width: 60px;
+    height: 40px;
+    background-color: #8B00FF;
+    color: white;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    -webkit-transition: ease 1.5s;
+    -moz-transition: ease 1.5s;
+    -ms-transition: ease 1.5s;
+    -o-transition: ease 1.5s;
+    transition: ease 1.5s;
+}
+.fanhui:hover{
+    background-color: white;
+    color: #8B00FF;
+}
+.footer{
+    position: relative;
+    top: 20px;
+}

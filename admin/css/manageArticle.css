@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Microsoft Yahei';
+
+}
+a{
+    color: #007FFF;
+    text-decoration: none;
+}
+a:hover{
+    color: #007FFF;
+}
+.article{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.article table{
+    width: 99%;
+    border: 1px #007FFF solid;
+    text-align: center;
+
+    border-collapse: collapse;
+}
+.article_table tr{
+    width: 99%;
+}
+.article_table tr th{
+    border: 1px #007FFF solid;
+    background-color: #007FFF;
+    color: white;
+    height: 30px;
+}
+.article_table tr td{
+    border: 1px #007FFF solid;
+    height: 30px;
+    font-size: 10px;
+}
+.article_table tr.one td{
+    background-color: Gainsboro;
+}
+.navi{
+    position: relative;
+   text-align: center;
+}
